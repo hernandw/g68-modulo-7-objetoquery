@@ -12,8 +12,7 @@ const config = {
     allowExitOnIdle: true
 }
 
-const pool = new Pool(config);
+export const pool = new Pool(config);
 
 
 
-export default pool
